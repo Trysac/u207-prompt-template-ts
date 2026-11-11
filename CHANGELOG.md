@@ -9,4 +9,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Added
 
+- feat: add typed prompt template utility with template literal type inference and strict runtime validation
 - Initial project structure from the factory utility template.
