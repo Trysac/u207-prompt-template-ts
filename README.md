@@ -1,15 +1,20 @@
 # @trysac/prompt-template-ts
 
-[![npm version](https://img.shields.io/npm/v/@trysac/prompt-template-ts.svg)](https://www.npmjs.com/package/@trysac/prompt-template-ts)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Typed prompt templates for TypeScript: variable names and types are inferred from the template string at compile time, with strict runtime checks and non‑recursive rendering. No runtime dependencies.
 
 ## Installation
 
-```bash
-npm install @trysac/prompt-template-ts
+Not published to npm yet. Build it from a clone, then install it from the local path:
+
+```sh
+git clone https://github.com/Trysac/u207-prompt-template-ts.git
+cd u207-prompt-template-ts && npm ci && npm run build
+cd ../your-project && npm install ../u207-prompt-template-ts
 ```
+
+Imports keep the package name: `import { ... } from "@trysac/prompt-template-ts"`.
 
 ## Usage
 
